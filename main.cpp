@@ -14,7 +14,7 @@ int main() {
 
     int posizione = cerca(lista,nome);
     if (posizione >= 0) {
-        cout << "presente in posizione: "<<  posizione << endl;
+        cout<<  posizione << endl;
     } else {
         cout << "non presente" << endl;
     }
