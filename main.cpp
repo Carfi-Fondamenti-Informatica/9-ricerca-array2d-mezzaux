@@ -9,16 +9,12 @@ int main() {
     nome[20];
     for (int j=0; j<20; j++) nome[j];
     cin >> nome;
-
-
     int posizione = cerca(lista,nome);
     if (posizione >= 0) {
         cout<<  posizione << endl;
     } else {
         cout << "non presente" << endl;
     }
-
-
 }
 
     return 0;
